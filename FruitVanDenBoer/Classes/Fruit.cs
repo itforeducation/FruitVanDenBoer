@@ -13,7 +13,9 @@
 
         public double Calculate()
         {
-            return price;
+            if (amount < discountAmount) return amount * price;
+            if (discountAmount > maxDiscount) discountAmount = maxDiscount;
+            return (amount * price) / 100 * maxDiscount;
         }
     }
 }
