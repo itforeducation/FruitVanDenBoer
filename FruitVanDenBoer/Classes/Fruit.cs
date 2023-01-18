@@ -5,8 +5,10 @@
         double price;
         int amount, maxDiscount = 50, discountAmount = 5;
 
-        public Fruit(int amount, int price)
+        public Fruit(int amount, double price)
         {
+            this.amount = amount;
+            this.price = price;
         }
 
         public double Calculate()
