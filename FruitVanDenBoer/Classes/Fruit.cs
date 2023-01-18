@@ -1,6 +1,6 @@
 ﻿namespace Classes
 {
-    internal class Fruit
+    abstract class Fruit
     {
         double price;
         int amount, maxDiscount = 50, discountAmount = 5;
