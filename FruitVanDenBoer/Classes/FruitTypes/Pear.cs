@@ -9,9 +9,9 @@ namespace FruitVanDenBoer.Classes.FruitTypes
 {
     internal class Pear : Fruit 
     {
-        public Pear()
+        public Pear(int amount, int price) : base(amount, price)
         {
-
+            Console.WriteLine("Pear Got Called!");
         }
 
     }
