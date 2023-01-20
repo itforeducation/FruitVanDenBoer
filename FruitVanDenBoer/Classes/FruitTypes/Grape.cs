@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FruitVanDenBoer.Classes.FruitTypes
+namespace Classes.FruitTypes
 {
-    internal class Grape
+    internal class Grape : Fruit
     {
+        public Grape(int amount, int price) : base(amount, price)
+        {
+            Console.WriteLine("Grape constructor called");
+        }
     }
 }
