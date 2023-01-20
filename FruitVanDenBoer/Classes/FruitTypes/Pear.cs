@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FruitVanDenBoer.Classes.FruitTypes
+namespace Classes.FruitTypes
 {
     internal class Pear : Fruit 
     {
