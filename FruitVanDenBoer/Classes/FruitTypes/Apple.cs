@@ -1,12 +1,17 @@
-﻿using System;
+﻿using Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FruitVanDenBoer.Classes.FruitTypes
+namespace Classes.FruitTypes
 {
-    internal class Apple
+    internal class Apple : Fruit
     {
+        public Apple(int amount, int price) : base(amount, price)
+        {
+            Console.WriteLine("Apple constructor called");
+        }
     }
 }
