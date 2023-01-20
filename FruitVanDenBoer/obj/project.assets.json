@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DaanVanWinkel\\.nuget\\packages\\": {}
+    "C:\\Users\\GillesBaeyens\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DaanVanWinkel\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\FruitVanDenBoer.csproj",
+      "projectUniqueName": "C:\\Users\\GillesBaeyens\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\FruitVanDenBoer.csproj",
       "projectName": "FruitVanDenBoer",
-      "projectPath": "C:\\Users\\DaanVanWinkel\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\FruitVanDenBoer.csproj",
-      "packagesPath": "C:\\Users\\DaanVanWinkel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DaanVanWinkel\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\obj\\",
+      "projectPath": "C:\\Users\\GillesBaeyens\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\FruitVanDenBoer.csproj",
+      "packagesPath": "C:\\Users\\GillesBaeyens\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GillesBaeyens\\Projects\\FruitVanDenBoer\\FruitVanDenBoer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DaanVanWinkel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GillesBaeyens\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
