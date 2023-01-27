@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FruitVanDenBoer.Classes.JuiceTypes
+namespace Classes.JuiceTypes
 {
-    internal class PearJuice
+    internal class PearJuice : Fruit
     {
+        public PearJuice(int amount, int price) : base(amount, price)
+        {
+            Console.WriteLine("IDK pearjuice");
+        }
     }
 }
